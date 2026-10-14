@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Front -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Css External -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Skill By MrJinxed</title>
+</head>
+
+<body>
+    <!-- mobile container -->
+    <div class="mobile-brand-container d-lg-none text-center py-3">
+        <h2><a href="index.html" class="text-decoration-none text-dark">PORTFOLIO</a></h2>
+    </div>
+    <!-- destop container -->
+    <header class="site-header">
+        <!-- Brand -->
+        <div class="brand">
+            <h2><a href="index.html">PORTFOLIO</a></h2>
+        </div>
+        <!-- NavBar -->
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about-me.html">ABOUT ME</a></li>
+                <li><a href="skill.html">SKILL</a></li>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <!-- row=เริ่มใช้งานระบบ grid ของ bootstrap -->
+            <div class="row align-items-center">
+
+                <!-- col-12=ปรับจอโทรศัพท์ให้กว้างเต็ม 100 col=กินจอ 70 -->
+                <!-- จัดกึ่งกลางบนมือถือด้วย text-center และชิดซ้ายปกติบนจอใหญ่ด้วย text-lg-start -->
+                <div class="col-12 col-lg-7 hero-text text-center text-lg-start mb-4 mb-lg-0">
+                    <h1>Skill <span class="hero-color-red">M</span>r<span class="hero-color-blue">J</span>inxed</h1>
+                </div>
+            </div>
+
+        <section class="skill mb-5">
+            <h2 class="text-white mb-3 text-center text-lg-start">ความสามารถในด้านการทำงาน</h2>
+            <!-- g-4 = gap:4 ใน css -->
+            <div class="row g-4">
+                <!-- col-12 (มือถือแสดง 1 คอลัมน์เต็ม) col-md-6 (แท็บเล็ตแสดง 2 คอลัมน์) col-lg-4 (จอคอมแสดง 3 คอลัมน์) -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-card h-100">
+                        <h3>HTML/CSS</h3>
+                        <p>พื้นฐานการใช้งาน โครงสร้างในการสร้างหน้าเว็บเบื้องต้น และการจัดรูปแบบ</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-card h-100">
+                        <h3>JavaScript</h3>
+                        <p>การโต้ตอบของเว็บไซต์</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-card h-100">
+                        <h3>AI helper for Coding</h3>
+                        <p>การใช้ Ai เพื่อให้ความช่วยเหลือในด้านการทำงาน เช่น การปรับปรุงด้าน coding จัดระเบียบการเขียนเพื่อความสบาย</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="soft-skill">
+                <div class="soft-head text-center text-lg-start">
+                    <h3>Soft Skill</h3>
+                </div>
+                <div class="soft-body">
+                    <span>Communication</span>
+                    <span>Teamwork</span>
+                    <span>Learning</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>©Siwa Thursupap | Portfolio</footer>
+
+    <!-- JS สำหรับพื้นหลัง -->
+    <script src="JS/bg-star.js"></script>
+</body>
+
+</html>
